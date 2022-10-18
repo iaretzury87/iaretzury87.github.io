@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>Colocar aquí el contenido de la nueva etiqueta header</header>
+<nav>Colocar aquí el contenido de la nueva etiqueta nav</nav>
+<main>
+  <section>
+    <h2>Formulario 1</h2>
+    Colocar aquí el contenido de la nueva etiqueta section    Colocar aquí el contenido de la nueva etiqueta section    Colocar aquí el contenido de la nueva etiqueta section
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure obcaecati dicta quisquam, numquam dolorem iste a libero, voluptatem, officia accusantium enim eum repudiandae placeat. Perferendis harum iure, ipsum dolores. Consequatur.</p>
+    <form id="form1" name="form1" method="get" action="formatos_texto.html">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+      <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+  </section>
+    <section>
+        <h2>Formulario con radiobutton </h2>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam facilis, a. Corporis unde minima deserunt reprehenderit, tempora veritatis quidem velit? Quaerat nisi in quis. Quod veritatis voluptate esse quibusdam quae.</p>
+        <form action="procesamiento.html" method="post" name="form2" id="form2">
+          <label>Elige tu genero:</label>
+          <table width="200" class="celda_centrada tabla_centrar">
+            <tr>
+              <td><label>
+                <input type="radio" name="Genero" value="fem" id="Genero_0">
+                Femenino<br>
+              </label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="radio" name="Genero" value="masc" id="Genero_1">
+                Masculino</label></td>
+            </tr>
+          </table>
+          <label for="pais">¿De que país nos visitas?</label>
+          <select name="pais" id="pais">
+            <option value="mx">México </option>
+            <option value="es">España</option>
+            <option value="ar">Argentina</option>
+            <option value="it">Italia</option>
+            <option value="us">Estados Unidos</option>
+          </select>
+          <p>
+            <label>¿Donde residiras durante tu estancia en el pais?&nbsp;</label>
+              <br>
+            <label>
+              <input type="checkbox" name="residencia_temporal" value="domicio_particular" id="residencia_temporal_0">
+              Casa de un amigo</label>
+            <br>
+            <label>
+              <input type="checkbox" name="residencia_temporal" value="hotel" id="residencia_temporal_1">
+              Hotel</label>
+            <br>
+            <label>
+              <input type="checkbox" name="residencia_temporal" value="airbnb" id="residencia_temporal_2">
+              Airbnb</label>
+            <br>
+          </p>
+<input type="submit" name="boton2" id="boton2" value="Enviar">
+          
+        </form>
+</section>
+    <section>
+      <h2>Contacto</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, omnis, aliquid. Natus tenetur quidem quos illo soluta error omnis possimus praesentium quae blanditiis corrupti, impedit quia quod quisquam quasi excepturi?</p>
+      <form action="procesamiento.html" method="get" name="form3" id="form3">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>  
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" maxlength="200" id="comentario">Escribe aqui tu mensaje...</textarea>
+        <input name="submit2" type="submit" class="boton_centrar" formaction="procesamiento.html" value="Enviar">
+        
+      </form>
+    
+    </section>
+</main>
+<footer>Colocar aquí el contenido de la nueva etiqueta footer</footer>
+</body>
+</html>

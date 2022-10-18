@@ -1,0 +1,365 @@
+@charset "utf-8";
+header{
+    height: 150px;
+    background-color: #D67371;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body header, body nav, body main, body footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body main section {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    padding: 30px;
+    margin-right: auto;
+    background-color: #F7ECDD;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main section h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#menu_interno li {
+    width: 200px;
+    height: 50px;
+    background-color: #8C4746;
+    list-style-type: none;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    color: #F7ECDD;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+
+body main {
+    padding: 30px;
+    background-color: #FFCAC9;
+}
+body footer {
+    background-color: #5A2625;
+}
+body header h1 {
+    color: #F7ECDD;
+    text-align: center;
+}
+body footer h6 {
+    color: #F7ECDD;
+    font-size: 20px;
+    text-align: center;
+    height: 80px;
+}
+
+
+body nav {
+    background-color: #76540C;
+    height: 60px;
+}
+#marcador1 {
+}
+#marcador2 {
+}
+#marcador3 {
+}
+#marcador4 {
+}
+#tabla_1  {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+
+
+}
+#tabla_1 thead tr th {
+    background-color: #934F4E;
+    color: #F7ECDD;
+    height: 79px;
+}
+#tabla_1 tbody tr td {
+    background-color: #B8A4A4;
+    color: #EFE1E2;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+}
+#tabla_1 th, #tabla_1 td {
+    border: 3px solid #452A2A;
+}
+.tabla_2 {
+    background-color: #C0A37C;
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.tabla_2 tbody tr:hover {
+    background-color: #F8CDE0;
+}
+
+.tabla_2 tbody tr td {
+    padding: 10px;
+}
+.tabla_2 thead th {
+    background-color: #DF7775;
+    color: #F7ECDD;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+#tabla_3 tr:nth-child(even) {
+    background-color: #B05E5C;
+    height: 40px;
+    color: #F7ECDD;
+}
+.tabla_4 {
+    width: 1000px;
+    border-collapse: collapse;
+}
+.tabla_4 tbody tr:nth-child(even) {
+    background-color: #D8C1A2;
+}
+.tabla_4 thead tr {
+    background-color: #783D3B;
+    color: #F7ECDD;
+}
+
+.tabla_4 tbody tr:nth-child(odd) {
+    background-color: #E1A9A8;
+}
+
+
+.tabla_4 th, .tabla_4 td {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+main section div {
+    margin-top: 30px;
+}
+
+
+
+#tabla_3 tr:nth-child(odd) {
+    background-color: #EBD3D2;
+    height: 20px;
+}
+#tabla_3 th {
+    background-color: #472525;
+    color: #F7ECDD;
+    height: 50px;
+    font-weight: bolder;
+}
+
+
+
+#tabla_3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#tabla_3 td {
+    width: 150px;
+}
+.celda_centrada {
+    text-align: center;
+}
+#overflow_x {
+    overflow-x: auto;
+}
+#overflow_x {
+}
+#img1 {
+    width: 70%;
+    height: 70%;
+}
+.img_checo_f {
+    width: 25%;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+main section p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#img_float_der {
+    float: right;
+}
+#img_float_izq {
+    float: left;
+}
+#bg_img_1 {
+    background-image: url(../imagenes/checo5_bg.jpg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    color: #F5FBFF;
+    background-position: 50% 50%;
+    opacity: 0.6;
+}
+.img_checo_filtros {
+    margin: 10px;
+}
+#img_filltro_grayscale {
+    filter: grayscale(100%);
+}
+#img_filtro_invert {
+    filter: invert(100%);
+}
+#img_filtro_blur {
+    filter: blur(2.5px);
+}
+#img_filtro_brillo {
+    filter: brightness(120%);
+}
+#img_filtro_contraste {
+    filter: constrast(20%);
+}
+#img_filtro_opacidad {
+    filter: opacity(50%);
+}
+#img_filtro_saturacion {
+    filter: saturate(180%);
+}
+#img_filtro_sepia {
+    filter: sepia(100%);
+}
+.img_sobras {
+    width: 50%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px gray);
+}
+#video_1 {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.video_2 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form1 label {
+    color: #D67371;
+    font-weight: bold;
+    font-size: 16px;
+}
+#form2 {
+    width: 60%;
+    background-color: #D4E7F4;
+    border: 8px solid #14364D;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+    height: auto;
+}
+#form2 select {
+    background-color: #2D3C53;
+    color: #F5FBFF;
+}
+#form2 #boton2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #143449;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+input[type=text] {
+    color: #318DCA;
+    font-style: italic;
+}
+input[type=submit] {
+    width: 150px;
+    height: 20px;
+    background-color: #AB5C5A;
+    color: #F7ECDD;
+    font-weight: bold;
+}
+.tabla_centrar {
+    margin-left: auto;
+    margin-right: auto;
+}
+#form3 #textarea {
+    width: 100%;
+    height: 100px;
+}
+#form3 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #D67371;
+    border-width: 8px;
+    border-style: outset;
+}
+#form3 #email {
+    width: 100%;
+}
+
+
+
+.pie {
+}
+.pie {
+    color: #F8CDE0;
+    text-align: center;
+}
+.boton_centrar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#form3 label {
+    color: #FFEBF4;
+    font-weight: bold;
+}
+#form3 #email {
+    background-color: #F4D6D5;
+    height: 30px;
+    color: #DF2D2A;
+    font-size: 16px;
+    padding: 10px;
+    font-style: italic;
+}
+#form3 #comentario {
+    background-color: #F4D6D5;
+    color: #DC5451;
+    font-style: italic;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.foto_portada {
+    width: 40%;
+    height: auto;
+    float: right;
+}
